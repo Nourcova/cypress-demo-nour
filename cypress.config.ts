@@ -9,6 +9,7 @@ export default defineConfig({
     reportDir: 'cypress/report',
     charts: true,
     reportPageTitle: 'Joan Media Demo Report',
+    inlineAssets: true,
     embeddedScreenshots: true,
   },
   env: {
